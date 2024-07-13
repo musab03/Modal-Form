@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Widget1 from "@/app/components/testing/Widget1"
-import Widget3 from "@/app/components/testing/Widget12"
+import Widget9 from "@/app/components/testing/Widget9"
 
 
 
@@ -23,7 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
    
         {/* <Widget1/> */}
-        <Widget3/>
+        <Widget9/>
         
         {children}
         
