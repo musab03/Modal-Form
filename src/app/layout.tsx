@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Widget9 from "@/app/components/testing/Widget5"
+import Widget9 from "@/app/components/testing/Widget8"
 
 
 
