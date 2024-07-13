@@ -50,21 +50,6 @@ const EditPaymentMethod = () => {
             />
           </div>
 
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="expiration"
-            >
-              Paragraph
-            </label>
-            <input
-              type="text"
-              id="paragraph"
-              className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-              placeholder="Unique Marketing can change everything"
-            />
-          </div>
-
           <div className="flex gap-4">
             <div className="mb-4">
               <label
@@ -77,7 +62,7 @@ const EditPaymentMethod = () => {
                 type="text"
                 id="button1-text"
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="View Product"
+                placeholder="View Customer"
               />
             </div>
             <div className="mb-4">
@@ -91,10 +76,13 @@ const EditPaymentMethod = () => {
                 type="text"
                 id="button2-text"
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="https//:/freeproduct"
+                placeholder="https://customer"
               />
             </div>
-          </div>
+          </div>    
+
+        
+
           
           <div>
             {fields.map((field) => (
@@ -114,60 +102,15 @@ const EditPaymentMethod = () => {
                 </button>
                 </label>
 
-                <div className="flex gap-4 mt-4">
-            <div className="mb-4">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="button1-url"
-              >
-                Heading
-              </label>
-              <input
-                type="text"
-                id="button1-url"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Small Buisness"
-              />
-            </div>
+
+
+       
             <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="button2-url"
               >
-                Paragraph
-              </label>
-              <input
-                type="text"
-                id="button2-url"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Sales and Services"
-              />
-            </div>
-          </div>
-
-
-
-          <div className="flex gap-4 ">
-            <div className="mb-4">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="button1-url"
-              >
-                Link Text
-              </label>
-              <input
-                type="text"
-                id="button1-url"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                placeholder="Learn More"
-              />
-            </div>
-            <div className="mb-4">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="button2-url"
-              >
-                Link Redirect URL
+                Icon URL
               </label>
               <input
                 type="text"
@@ -176,8 +119,7 @@ const EditPaymentMethod = () => {
                 placeholder="Enter URL"
               />
             </div>
-          </div>
-
+      
 
           <div className="mb-4">
             <label
