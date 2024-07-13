@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 
-let prevHeading = "We Bring Companies and Customer together";
-let prevPara = "We help your marketing,sales,customer";
+let prevTagline = "We Bring Companies and Customer together";
+
 
 const EditPaymentMethod = () => {
   return (
@@ -21,7 +21,7 @@ const EditPaymentMethod = () => {
               type="text"
               id="heading"
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline "
-              placeholder={`${prevHeading}`}
+              placeholder={`${prevTagline}`}
             />
           </div>
 
