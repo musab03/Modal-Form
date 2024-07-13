@@ -78,7 +78,7 @@ const EditPaymentMethod = () => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="button1-url"
               >
-                Tagline
+                Title
               </label>
               <input
                 type="text"
@@ -86,6 +86,24 @@ const EditPaymentMethod = () => {
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 placeholder="Small Buisness"
               />
+            </div>
+
+
+            <div className="mb-4 w-full ">
+              <select
+                htmlFor="hs-color-input"
+                className="p-1 h-8 w-full block bg-white border border-gray-200 cursor-pointer rounded-lg disabled:opacity-50 disabled:pointer-events-none"
+                title="Choose your color"
+              >
+                <option value="#900C3F" selected>
+                  Select Title Font Color
+                </option>
+                <option value="#FF5733">Orange</option>
+                <option value="#DAF7A6">Light Green</option>
+                <option value="#FFC300">Yellow</option>
+                <option value="#C70039">Red</option>
+                <option value="#581845">Purple</option>
+              </select>
             </div>
 
                 
@@ -98,7 +116,7 @@ const EditPaymentMethod = () => {
                 className="block text-gray-700 text-sm font-bold mb-2"
                 htmlFor="button2-url"
               >
-                Icon URL
+                Title Description
               </label>
               <input
                 type="text"
@@ -109,20 +127,7 @@ const EditPaymentMethod = () => {
             </div>
       
 
-          <div className="mb-4">
-            <label
-              className="block text-gray-700 text-sm font-bold mb-2"
-              htmlFor="file_input"
-            >
-              Upload Icon
-            </label>
-            <input
-              className="block w-full text-sm text-gray-900 border border-white bg-white rounded-lg cursor-pointer dark:placeholder-gray-400"
-              aria-describedby="file_input_help"
-              id="file_input"
-              type="file"
-            />
-          </div>
+            
 
 
                
