@@ -83,7 +83,7 @@ const EditPaymentMethod = () => {
 
         
 
-          <div className="mb-4">
+          {/* <div className="mb-4">
             <label
               className="block text-gray-700 text-sm font-bold mb-2"
               htmlFor="file_input"
@@ -96,7 +96,7 @@ const EditPaymentMethod = () => {
               id="file_input"
               type="file"
             />
-          </div>
+          </div> */}
 
           
           <div>
